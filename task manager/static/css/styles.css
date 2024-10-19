@@ -1,0 +1,55 @@
+/* Global settings */
+body {
+    background-color: #f8f9fa;
+}
+
+/* Card styles */
+.card {
+    border-radius: 10px;
+    box-shadow: 5px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Task list styling */
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.card-text.completed-task {
+    text-decoration: line-through;
+    color: #6c757d;
+}
+
+.card-text.ongoing-task {
+    font-weight: bold;
+    color: black;
+}
+
+/* Add form */
+.task-form {
+    background-color: #f8d7c6;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    width: 600px;
+    margin-left: 350px;
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+    .task-form, .task-list {
+        margin: 0;
+    }
+}
+/* Dashboard Styles */
+.card-title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+.btn-primary{
+    background-color: black;
+    color: white;
+    box-shadow: 2px black;
+}
